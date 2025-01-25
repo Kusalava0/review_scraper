@@ -29,8 +29,8 @@ This script enables scraping product reviews from **G2**, **Capterra**, and **Tr
 
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
-   cd <repository-directory>
+   git clone https://github.com/Kusalava0/review_scraper.git
+   cd review_scraper
    ```
 
 2. Ensure `ChromeDriver` is properly installed and configured.
@@ -85,38 +85,6 @@ Example:
 ## Known Limitations
 1. **CAPTCHA Handling:** If CAPTCHA appears during scraping, manual intervention is required.
 2. **Dynamic Website Changes:** The structure of G2, Capterra, or Trustpilot might change, requiring updates to the scraping logic.
-
----
-
-## Publishing to GitHub
-
-1. Add a `.gitignore` file to exclude unnecessary files like `__pycache__`, environment files, etc. Example:
-   ```
-   __pycache__/
-   *.log
-   *.json
-   ```
-
-2. Add a `requirements.txt` file:
-   ```
-   beautifulsoup4
-   selenium
-   requests
-   ```
-
-3. Add a `LICENSE` file to specify your project's license.
-
-4. Write a clear project description in the `README.md` (this file).
-
-5. Commit your changes and push to GitHub:
-   ```bash
-   git init
-   git add .
-   git commit -m "Initial commit"
-   git branch -M main
-   git remote add origin <repository-url>
-   git push -u origin main
-   ```
 
 ---
 
